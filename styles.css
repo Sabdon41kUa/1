@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: url(image\ 1.png) no-repeat bottom center/cover;
+    background: url(imgs/image\ 1.png) no-repeat bottom center/cover;
     height: 720px;
     display: flex;
     justify-content: center;
@@ -153,10 +153,138 @@ footer img {
     margin-top: 10px;
 }
 
-@media (max-width: 800px) {
+@media(min-width: 500px) and (max-width: 1000px) {
+
+    body {
+        width: 100vw;
+    }
+
+    button {
+        width: 30vw;
+    }
+
+    .header-content h1 {
+        font-size: 100px;
+    }
+
+    main {
+        height: 100%;
+    }
+
+    .school-competition {
+        margin-top: 180px;
+    }
+
+    .school-competition, .youth-competition {
+        width: 30vw;
+    }
+
+    .open-competition h2 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 75vw;
+        font-size: 45px;
+    }
+
+    .competitions .school-competition h3, .youth-competition h3 {
+        font-size: 30px;
+        line-height: 30.74px;
+    }
+
+    .inf {
+    font-size: 26px;
+    line-height: 34.96px;
+    }
+
+    .category h4 {
+        font-size: 20px;
+        line-height: 9.57px;
+    }
+
+    .school-competition ul, .youth-competition ul {
+        font-size: 16px;
+        line-height: 16.52px;
+    }
+
+    .reg {
+        font-size: 16px;
+        line-height: 21.22px;
+    }
+
+    .info {
+    font-size: 15px;
+    line-height: 20.52px;
+    }
 
 }
 
-@media (max-width: 400px) {
+@media(min-width: 0px) and (max-width: 500px) {
 
+    .header-content button {
+        width: 30vw;
+        font-size: 13px;
+        height: 30px;
+    }
+
+    .header-content h1 {
+        font-size: 50px;
+    }
+
+    main {
+        height: 100%;
+    }
+
+    .school-competition {
+        margin-top: 180px;
+    }
+
+    .school-competition, .youth-competition {
+        width: 20vw;
+    }
+
+    .open-competition h2 {
+        margin-right: auto;
+        margin-left: auto;
+        width: 75vw;
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .competitions .school-competition h3, .youth-competition h3 {
+        font-size: 16px;
+        line-height: 13.74px;
+    }
+
+    .inf {
+        font-size: 11px;
+        line-height: 12.96px;
+    }
+
+    .youth-competition .weight-categories h4 {
+        line-height: 3.52px;
+    }
+
+    .category h4 {
+        font-size: 9px;
+        line-height: 4.57px;
+    }
+
+    .school-competition ul, .youth-competition ul {
+        font-size: 6px;
+        line-height: 8.52px;
+    }
+
+    .reg {
+        font-size: 6px;
+        line-height: 10.22px;
+    }
+
+    .info {
+        font-size: 6px;
+        line-height: 9.52px;
+    }
+
+    .event-details p {
+        font-size: 10px;
+    }
 }
